@@ -6,8 +6,9 @@ import asyncio
 from discord_manager import send_message as discord_send_message
 
 # Path to the statistics files
-STATS_FILE = 'table_statistics.json'
-LOG_FILE = 'statistics_log.json'
+STATS_FILE = '/home/tolian500/scripts/server_manager/table_statistics.json'
+LOG_FILE = '/home/tolian500/scripts/server_manager/statistics_log.json'
+
 MANAGER_USER = os.environ['MANAGER_USER']
 MANAGER_PASS = os.environ['MANAGER_PASS']
 
