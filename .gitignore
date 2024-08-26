@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Temp files:
+venv/
+.idea/
+table_statistics.json
+statistics_log.json
+
 # C extensions
 *.so
 
